@@ -47,10 +47,14 @@ button{
     font-size: 4rem;
     font-style: italic;
     border-radius: 1rem;
+    color: black;
     
 }
 button:hover{
     cursor: pointer;
+}
+button:active{
+    color: black;
 }
 video{
   width: 100%;

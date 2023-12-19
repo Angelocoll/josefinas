@@ -23,12 +23,13 @@ body{
     border-radius: 1rem;
     font-size: 2rem;
     color: rgb(255, 255, 255);
+   
 }
 h1{
     font-size: 4.5rem;
     margin: 0;
-    color: rgb(67, 0, 67);
-
+    color: rgb(95, 74, 0);
+    
 }
 
 .Box{
@@ -38,7 +39,7 @@ h1{
     width: 90%;
     justify-content: space-around;
     color: black;
-   
+    
     
 }
 button{
@@ -48,6 +49,8 @@ button{
     font-style: italic;
     border-radius: 1rem;
     color: black;
+    text-align: center;
+    border: solid 1px rgb(0, 0, 0);
     
 }
 button:hover{
@@ -57,23 +60,35 @@ button:active{
     color: black;
 }
 video{
-  width: 100%;
+    width: 100%;
+    height: 100%;
     object-fit: cover;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: -1;       
 }
 .background{
     position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+h2{
+    color: rgb(95, 74, 0);
+    font-size: 4rem;
+    margin: 0; 
+    position: absolute;
+    top: 15%;
+    font-weight:200;
+    background: rgba(0, 0, 0, 0.297);
+    border-radius: 1rem;
+    
 }
 
-@media (max-width: 610px){
+@media (max-width: 640px){
     .clock{
         width: 28rem;
         height: 8rem;
@@ -83,6 +98,9 @@ video{
     }
     .Box{
         font-size: 0.8rem;
+    }
+    h2{
+        font-size: 3rem;
     }
 }
 @media (max-width: 475px){
@@ -97,6 +115,9 @@ video{
         font-size: 0.7rem;
         width: 95%;
     }
+    h2{
+        font-size: 2.5rem;
+    }
 }
 @media (max-width: 395px){
     .clock{
@@ -110,6 +131,9 @@ video{
         font-size: 0.7rem;
         width: 95%;
     }
+    h2{
+        font-size: 2.3rem;
+    }
 }
 @media (max-width: 365px){
     .clock{
@@ -122,5 +146,8 @@ video{
     .Box{
         font-size: 0.6rem;
         width: 95%;
+    }
+    h2{
+        font-size: 2rem;
     }
 }
